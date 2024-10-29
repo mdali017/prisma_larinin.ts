@@ -16,7 +16,6 @@ const main = async () => {
 
   // console.log(result)
 
-
 //   for creaitng multiple data
   const createMany = await prisma.post.createMany({
     data: [
